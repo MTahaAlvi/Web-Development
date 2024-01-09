@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+ body{
+    background: url(lum3n--RBuQ2PK_L8-unsplash.jpg);
+    background-size: 80%;
+    background-position: -400% 0px;
+ }
+ 
+ div.main{
+    width: 400px;
+    margin: 50px auto 0px auto;
+ }
+ h1{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+ }
+ div.register{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+ }
+
+ .register label {
+    width: 100%;
+    display: block;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.register label input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 6px;
+}
+
+.register .flex-label{
+    width: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.register .flex-label input{
+    width: auto;
+}
+
+.radio-div{
+    display: flex;
+    gap: 30px;
+}
+
+.register #submit{
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rosybrown;
+    display: block;
+    margin: 5px auto;
+}
